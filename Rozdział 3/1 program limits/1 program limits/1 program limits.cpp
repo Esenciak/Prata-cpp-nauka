@@ -11,9 +11,9 @@ int main()
 	long n_long = LONG_MAX;
 
 	//operator sizeof zwraca wielkosc typu lib zmiennej
-	cout << "int ma " << sizeof(int) << " bajty." << endl;
-	cout << "short ma " << sizeof n_short << " bajty." << endl;
-	cout << "long ma " << sizeof n_long << " bajty." << endl;
+	cout << "int ma " << sizeof(int) << " bajtow." << endl;
+	cout << "short ma " << sizeof n_short << " bajtow." << endl;
+	cout << "long ma " << sizeof n_long << " bajtow." << endl;
 
 	cout << "Wartosci maksymalne: " << endl;
 	cout << "int: " << n_int << endl;

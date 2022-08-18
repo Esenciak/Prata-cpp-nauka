@@ -22,5 +22,6 @@ int main()
 
 	cout << "Minimalna wartosc typu int = " << INT_MIN << endl;
 	cout << "Bitów na bajt = " << CHAR_BIT << endl;
+	cout << "znowu";
 	return 0;
 }

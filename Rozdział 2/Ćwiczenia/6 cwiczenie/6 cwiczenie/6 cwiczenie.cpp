@@ -23,3 +23,4 @@ void czas(int godziny, int minuty)
 {
 	cout << "Czas: " << godziny << ":" << minuty << endl;
 }
+//siemano

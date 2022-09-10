@@ -19,5 +19,12 @@ int main()
     cout << " dolarow.\nBiedny Sam!" << endl;
     sam = ZERO;
     sue = ZERO;
-    
+    cout << "Sam ma " << sam << " dolarow, a Sue ma " << sue;
+    cout << " dolarow." << endl;
+    cout << "Zabierzmy z obu kont 1$." << endl << "Teraz ";
+    sam = sam - 1;
+    sue = sue - 1;
+    cout << "Sam ma " << sam << " dolarow, a Sue ma " << sue;
+    cout << " dolarow." << endl << "Szczesciara Sue!" << endl;
+    return 0;
 }

@@ -1,8 +1,17 @@
-﻿// 3 program hexoct.cpp - pokazuje uzycie t
-
+﻿// 3 program hexoct.cpp - pokazuje uzycie stałych ósemkowych i szestnastkowych
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    using namespace std;
+    int chest = 42;         //dziesiętna stała całkowitoliczbowa
+    int waist = 0x42;       //szestnastkowa stała całkowitoliczbowa
+    int inseam = 042;       //ósemkowa stałą całkowitoliczbowa
+
+    cout << "Co za figura!\n";
+    cout << "obwod piersi = " << chest << "\n";
+    cout << "talia = " << waist << "\n";
+    cout << "dlugoscn nogawki = " << inseam << "\n";
+    return 0;
 }

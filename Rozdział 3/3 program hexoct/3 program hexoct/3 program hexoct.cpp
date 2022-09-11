@@ -12,6 +12,6 @@ int main()
     cout << "Co za figura!\n";
     cout << "obwod piersi = " << chest << "\n";
     cout << "talia = " << waist << "\n";
-    cout << "dlugoscn nogawki = " << inseam << "\n";
+    cout << "dlugosc nogawki = " << inseam << "\n";
     return 0;
 }

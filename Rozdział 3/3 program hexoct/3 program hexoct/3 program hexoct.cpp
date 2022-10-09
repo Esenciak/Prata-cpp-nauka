@@ -13,6 +13,5 @@ int main()
     cout << "obwod piersi = " << chest << "\n";
     cout << "talia = " << waist << "\n";
     cout << "dlugosc nogawki = " << inseam << "\n";
-    //znowu to samo 2
     return 0;
 }

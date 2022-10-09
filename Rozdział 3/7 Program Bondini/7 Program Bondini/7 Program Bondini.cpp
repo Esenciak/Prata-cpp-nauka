@@ -8,11 +8,6 @@ int main()
 	cout << "Podaj swoj kod agenta: ___________\b\b\b\b\b\b\b\b\b\b\b";
 	long code;
 	cin >> code;
-	cout << "\b" << endl;
-	cout << "\b" << endl;
-	cout << "\b" << endl;
-	cout << "\b" << endl;
-	cout << "\b" << endl;
 	cout << "\aPodales " << code << "...\n";
 	cout << "\aKod poprawny! Prosze realizowac plan Z3!\n";
 	return 0;

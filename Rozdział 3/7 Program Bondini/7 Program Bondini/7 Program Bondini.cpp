@@ -5,7 +5,7 @@ int main()
 {
 	using namespace std;
 	cout << "\aOperacja \"HyperHype\" zostala uruchomiona!\n";
-	cout << "Podaj swoj kod agenta: ___________\b\b\b\b\b\b\b\b\b\b\b";
+	cout << "Podaj swoj kod agenta:___________\b\b\b\b\b\b\b\b\b\b\b";
 	long code;
 	cin >> code;
 	cout << "\aPodales " << code << "...\n";

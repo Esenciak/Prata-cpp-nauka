@@ -16,9 +16,7 @@ int main()
     coots = int(19.99) + int(11.99);        // nowa skladnia C++
     cout << "auks = " << auks << ", bats = " << bats;
     cout << ", coots = " << coots << endl;
-    
-    rabbit = unsigned long(19.99) + unsigned long(11.99); // moja próba
-    cout << "rabbit to " << rabbit << ".\n";
+   
 
     char ch = 'Z';
     cout << "Kod odpowiadajacy znakowi " << ch << " to ";

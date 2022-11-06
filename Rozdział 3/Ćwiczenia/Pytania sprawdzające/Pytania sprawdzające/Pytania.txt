@@ -1,0 +1,34 @@
+Pytania sprawdzaj¹ce 
+
+1. Aby móc wybraæ odpowiedni tzn. taki który sprosta naszym zapotrzebowaniom np: na iloœæ bajtów (miejsca), dane zapisywane (zmiennoprzecinkowe, ca³kowite,
+znaki ASCII, wartoœæ znaku)
+
+2.
+a) short = 80
+b) unsigned int = 42 110
+c) unsigned long = 3 000 000 000
+
+3. W C++ nie wystêpuj¹ ¿adne ochrony przekroczenia limitu typu ca³kowitego
+
+4. Sta³a 33L jest typu Long a 33 typu int
+
+5. Pierwsza zmienna jest liczbowa "65" a druga jest zapisem litery "A" do której jest przypisana dana cyfra
+
+6. 
+pierwszy sposób to wpisanie 
+char litera = 88;
+cout << litera << endl;
+drugi to
+cout.put(char(88));
+cout << char(88) << endl;
+
+7. zale¿y od rozmoaru obydwu typów, double moze pomieœciæ wiêceksz¹ cyfrê wiec nie bedzie straty
+
+8.
+a) 8 * 9 + 2 = 74
+b) 6 * 3 / 4 = 4 (wynik to 4.5 ale daje siêwynik bez reszty)
+c) 3 / 4 * 6 = 0 ( 3/4 = 0*6 = 0)
+d) 6.0 * 3 / 4 = 4.5 ( 6.0 * 3 = 18.0 / 4 = 4.5)
+e) 15 % 4 = 3
+
+9. int zmienne = int(x1) + int(x2)

@@ -29,6 +29,7 @@ int main()
 
 }
 
+
 // napierw wzrost w stopach i calach, wage w funtach 
 // BMI = wzrost zamienic na cale (1 stopa 12 cali) potem cale na metry (cale * 0.0254) potem wage podzielic an 2.2 
 // BMI = masa w kg przez kwadrat wzrostu w metrach

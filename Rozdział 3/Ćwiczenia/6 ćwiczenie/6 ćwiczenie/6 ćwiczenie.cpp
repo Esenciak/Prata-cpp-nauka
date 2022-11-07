@@ -9,6 +9,6 @@ int main()
     double spalanie;
     cin >> spalanie;                                    // spalanie na 100
    
-    cout << "\nZuzycie benzyny w milach na galon wynosi " << 62.14 / (spalanie / 3.785);
+    cout << "\nZuzycie benzyny w milach na galon wynosi " << 62.14 / (spalanie / 3.785) << "/100";
 
 }

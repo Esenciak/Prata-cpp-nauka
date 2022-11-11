@@ -1,6 +1,6 @@
 ﻿// Program 4.7 - strtype1.cpp : uzycie klasy C++ string
 #include <iostream>
-#include <string>                           //udostepnienie dlasy string
+#include <string>                           //udostepnienie klasy string
 
 int main()
 {
@@ -9,6 +9,7 @@ int main()
     char charr2[20] = "jaguar";         // utworzenie tablicy zainicjowanej
     string str1;                        // utworzenie pustego obiektu string
     string str2 = "pantera";            // utowrzenie zainicjalizowanego obiektu string
+
 
 
     cout << "Podaj gatunek kota: ";

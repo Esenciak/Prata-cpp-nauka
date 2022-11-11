@@ -8,6 +8,7 @@ int main()
     cout << "W ktorym roku zbudowano twoj dom?\n";
     int year;
     cin >> year;
+    cin.get();
     cout << "Przy jakiej ulicy mieszkasz?\n";
     char addres[80];
     cin.getline(addres, 80);

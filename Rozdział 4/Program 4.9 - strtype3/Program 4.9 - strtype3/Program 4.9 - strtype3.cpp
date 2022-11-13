@@ -18,7 +18,7 @@ int main()
         
     //łaczy napis z tablica nakową
     str1 += " makaron";             //dopisywanie makaronu do str1
-    strcpy_s(charr1, " sok");         //dopisanie soku do charr1
+    strcpy_s( charr1, " sok");         //dopisanie soku do charr1
 
     //okreslenei dlugosci łancucha
     int len1 = str1.size();         //okresl dlugosc str1

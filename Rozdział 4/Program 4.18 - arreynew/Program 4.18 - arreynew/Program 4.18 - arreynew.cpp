@@ -18,6 +18,6 @@ int main()
     cout << " a p[2] to " << p3[0];
 
     p3 = p3 - 1;                    // znowu wskazujemy poczatek tablicy
-    delete[] p3;                    // zwalniamy pamiec
+    delete[] p3;                    // zwalniamy pamieć
     return 0;
 }

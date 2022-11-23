@@ -1,20 +1,26 @@
-﻿// Ćwiczenie 1 - Rozdział 4.cpp : Ten plik zawiera funkcję „main”. W nim rozpoczyna się i kończy wykonywanie programu.
-//
+﻿// Ćwiczenie 1 - Rozdział 4.cpp : Program proszący o informacje
 
 #include <iostream>
+#include<string>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    using namespace std;
+    cout << "Jak masz na imie? ";
+    string name;
+    getline(cin, name);
+    cout << "\nJak masz na nazwisko? ";
+    string lastname;
+    getline(cin, lastname);
+    cout << "\nNa jaka ocene zaslugujesz? ";
+    int grade;
+    cin >> grade;;
+    cout << "\nile masz lat? ";
+    int age;
+    cin >> age;
+
+    cout << "\nNazwisko: " << lastname << ", " << name;
+    cout << "\nOcena: " << --grade;
+    cout << "\nWiek: " << age;
 }
 
-// Uruchomienie programu: Ctrl + F5 lub menu Debugowanie > Uruchom bez debugowania
-// Debugowanie programu: F5 lub menu Debugowanie > Rozpocznij debugowanie
-
-// Porady dotyczące rozpoczynania pracy:
-//   1. Użyj okna Eksploratora rozwiązań, aby dodać pliki i zarządzać nimi
-//   2. Użyj okna programu Team Explorer, aby nawiązać połączenie z kontrolą źródła
-//   3. Użyj okna Dane wyjściowe, aby sprawdzić dane wyjściowe kompilacji i inne komunikaty
-//   4. Użyj okna Lista błędów, aby zobaczyć błędy
-//   5. Wybierz pozycję Projekt > Dodaj nowy element, aby utworzyć nowe pliki kodu, lub wybierz pozycję Projekt > Dodaj istniejący element, aby dodać istniejące pliku kodu do projektu
-//   6. Aby w przyszłości ponownie otworzyć ten projekt, przejdź do pozycji Plik > Otwórz > Projekt i wybierz plik sln
